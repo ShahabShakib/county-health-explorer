@@ -32,8 +32,11 @@ Entity relationship diagram for the database.
 Execution Order
 
 1.Run `sql/county_health_explorer_schema.sql`.
+
 2.Import `places_county_2025_working.csv` (downloaded from CDC as `PLACES_Local_Data_for_Better_Health_County_Data_2025_release.csv`) into `places_county_staging`.
+
 3.Run `sql/county_health_explorer_load.sql`.
+
 4.Run `sql/county_health_explorer_queries.sql`.
 
 

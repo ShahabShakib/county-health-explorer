@@ -1,0 +1,9 @@
+# County Health Explorer
+# Python Dependencies
+# Author: Shahab Shakib
+# Purpose: Lists the Python packages required to run the Streamlit application.
+
+streamlit
+SQLAlchemy
+PyMySQL
+pandas

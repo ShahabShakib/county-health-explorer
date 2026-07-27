@@ -17,24 +17,24 @@ The database separates states, counties, health categories, measures, data value
 
 Project Files
 
-`sql\county_health_explorer_schema.sql`  
+`sql/county_health_explorer_schema.sql`  
 Creates the database tables, keys, constraints, indexes, staging table, and reporting view.
 
-`sql\county_health_explorer_load.sql`  
+`sql/county_health_explorer_load.sql`  
 Loads normalized data from the staging table and performs validation checks.
 
-`sql\county_health_explorer_queries.sql`  
+`sql/county_health_explorer_queries.sql`  
 Contains demonstration queries for filtering, aggregation, joins, subqueries, comparisons, missing data analysis, and reporting.
 
-`diagrams\county_health_er_diagram.png`  
+`diagrams/county_health_er_diagram.png`  
 Entity relationship diagram for the database.
 
 Execution Order
 
-1.Run `county_health_explorer_schema.sql`.
+1.Run `sql/county_health_explorer_schema.sql`.
 2.Import `places_county_2025_working.csv` (downloaded from CDC as `PLACES_Local_Data_for_Better_Health_County_Data_2025_release.csv`) into `places_county_staging`.
-3.Run `county_health_explorer_load.sql`.
-4.Run `county_health_explorer_queries.sql`.
+3.Run `sql/county_health_explorer_load.sql`.
+4.Run `sql/county_health_explorer_queries.sql`.
 
 
 Expected Row Counts

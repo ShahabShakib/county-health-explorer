@@ -1,0 +1,21 @@
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Database certificates
+ca.pem
+*.pem
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
